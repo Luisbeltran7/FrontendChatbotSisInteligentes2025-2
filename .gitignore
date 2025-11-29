@@ -1,0 +1,85 @@
+# Entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# Archivos de sistema
+Thumbs.db
+.directory
+.AppleDouble
+.LSOverride
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Caché de pytest
+.pytest_cache/
+
+# Cobertura de código
+.coverage
+.coverage.*
+htmlcov/
+
+# Directorios temporales
+tmp/
+temp/
+*.tmp
+
+# Archivos de logs
+*.log
+logs/
+
+# Node (si usas node también)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos específicos del proyecto
+*.db
+*.sqlite
+*.sqlite3
